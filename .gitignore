@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Production build
+dist/
+dist-ssr/
+
+# Logs and debug output
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Browser temp directories
+.chrome-temp/
+.edge-temp/
+
+# Scratch & test automation scripts
+save_10_samples_snapshot.ts
+take_screenshots.js
+take_snapshot.ts
+test_10_samples.ts
+test_ui_interactive.js
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
